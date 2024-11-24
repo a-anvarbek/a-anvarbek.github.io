@@ -4,3 +4,128 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: "Monda", sans-serif;
+}
+
+ul{
+  list-style: none;
+}
+
+.one .write-box{
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.one .write-box .contact {
+  border-radius: 5px 5px 0 0;
+  max-width: 780px;
+  width: 100%;
+  display: grid;
+  box-shadow: 0 0 5px #808080;
+}
+
+.one .write-box .contact ul{
+  margin: 0;
+  padding: 10px;
+}
+.one .write-box .contact ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.one .write-box .contact ul a{
+  color: #042104;
+  font-size: 15px;
+}
+
+.one .write-box .write-line{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  max-width: 780px;
+  width: 100%;  
+  box-shadow: 0 0 5px #808080;
+}
+
+.one .write-box .write-line .logo{
+  /* grid-area: center; */
+  padding-top: 50px;
+  padding-bottom: 50px;
+  align-items: center;
+}
+
+.one .write-box .write-line .logo img{
+  border-radius: 50%;
+  width: 70%;
+  height: auto;
+  margin-bottom: 10%;
+}
+
+.one .write-box .write-line .logo h4{
+  font-size: 1.5em;
+  font-weight: normal;
+  font-style: none;
+}
+
+.one .write-box .write-line .logo a{
+  color: #042104;
+  font-size: 15px;
+  padding: 0 5px;
+}
+
+.one .write-box .write-line .briefly{
+  font-size: 1.5em;
+  font-style: normal;
+}
+
+.two .about-box{
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.two .about-box .about-me{
+  width: 100%;
+  display: grid;
+  height: auto;
+  max-width: 740px;
+  margin: 0 5%;
+  font-size: 1.2em;
+}
+
+.two .about-box .about-me h2{
+  padding: 10px 0;
+}
+
+.two .about-box .about-me h4{
+  font-weight: normal;
+}
+
+footer{
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+@media (max-width: 800px){
+  .one .write-box .contact{
+    display: grid;
+    justify-content: center;
+  }
+  .one .write-box .write-line{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  }
+}
