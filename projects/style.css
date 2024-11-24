@@ -6,7 +6,7 @@
 }
   
 body {
-    background-color: #1c3b68;
+    background-color: #042104;
 }
   
 h1,
@@ -55,6 +55,8 @@ ul {
   
 .title {
     letter-spacing: 3px;
+    text-shadow: 0px 0px 10px #00ff0a,
+                2px 5px 10px #00ff0a;
 }
   
 .menu {
@@ -77,15 +79,21 @@ ul {
 }
   
 .current-link {
-    color: #f77f00;
+    color: #042104;
     background-color: #f1faee;
+    border-radius: 0 50%;
+    box-shadow: 0px 0px 10px #00ff0a,
+                5px 5px 10px #00ff0a;
 }
   
 .card {
     width: 300px;
-    background-color: #457b9d;
+    background-color: #042104;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 15px auto;
+    box-shadow: 0px 0px 10px #00ff0a,
+                5px 5px 10px #00ff0a;
+    border-radius: 10%;
 }
   
 .card-wrapper {
@@ -102,12 +110,14 @@ ul {
     width: 100%;
     height: 180px;
     object-fit: cover;
+    border-radius: 10% 10% 0 0;
 }
   
 .card-info {
     background-color: #e5e5e5;
     padding: 0 10px;
     text-align: center;
+    border-radius: 0 0 10% 10%;
 }
   
 .card-info a {
@@ -129,12 +139,14 @@ ul {
     background-color: #199c56;
     padding: 1px 15px;
     transform: translateX(1rem);
+    border-radius: 20% 50% 50% 20%;
 }
   
 .not-responsive {
     background-color: #e63946;
     padding: 1px 15px;
     transform: translateX(1rem);
+    border-radius: 20% 50% 50% 20%;
 }
   
 .project-title {
@@ -148,20 +160,21 @@ ul {
     font-weight: 600;
     padding: 3px 10px;
     background-color: #f77f00;
-    color: #f1faee;
+    color: #042104;
     letter-spacing: 2px;
+    border-radius: 0% 0% 50% 50%;
 }
-  
+
 .source-link {
     width: 150px;
     margin: 10px;
     font-size: 14px;
     font-weight: 600;
     padding: 1px 8px;
-    background-color: #fff;
-    border: 2px solid #f77f00;
-    color: #f77f00;
+    border: 2px solid #042104;
+    color: #042104;
     letter-spacing: 2px;
+    border-radius: 50%;
 }
   
 .copyright {
