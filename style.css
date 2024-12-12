@@ -123,9 +123,22 @@ footer{
     display: grid;
     justify-content: center;
   }
-  .one .write-box .write-line{
+  
+  .one .write-box .write-line {
     display: grid;
-    justify-content: center;
-    text-align: center;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr; 
+    justify-items: center; 
+    text-align: center; 
+    gap: 1rem; 
+  }
+  
+  .briefly {
+    margin-top: 25px;
+    grid-row: 1;   
+  }
+  
+  .logo {
+    grid-row: 2; 
   }
 }
